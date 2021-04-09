@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">DlnaCyberGarage</string>
+    <string name="start">START</string>
+    <string name="dmr">DMR</string>
+    <string name="dmc">DMC</string>
+    <string name="create">CREATE</string>
+    <string name="pause">PAUSE</string>
+    <string name="multi_cast">MULTI_CAST</string>
+    <string name="test">TEST</string>
+    <string name="device_name">DeviceName:</string>
+    <string name="play">PLAY</string>
+    <string name="set_url">SET URL</string>
+    <string name="get_position_info">GET POSITION INFO</string>
+</resources>

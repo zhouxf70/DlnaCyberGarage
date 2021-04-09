@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0">
+    <specVersion>
+        <major>1</major>
+        <minor>0</minor>
+    </specVersion>
+    <device>
+        <deviceType>urn:schemas-upnp-org:device:MediaRender:1</deviceType>
+        <friendlyName>Cyber Garage Media Render</friendlyName>
+        <manufacturer>Cyber Garage</manufacturer>
+        <manufacturerURL>http://www.cybergarage.org</manufacturerURL>
+        <modelDescription>Provides content through UPnP ContentDirectory service</modelDescription>
+        <modelName>Cyber Garage Media Render</modelName>
+        <modelNumber>1.0</modelNumber>
+        <modelURL>http://www.cybergarage.org</modelURL>
+        <serviceList>
+<!--            <service>-->
+<!--                <serviceType>urn:schemas-upnp-org:service:RenderingControl:1</serviceType>-->
+<!--                <serviceId>RenderingControl</serviceId>-->
+<!--            </service>-->
+            <service>
+                <serviceType>urn:schemas-upnp-org:service:AVTransport:1</serviceType>
+                <serviceId>AVTransport</serviceId>
+            </service>
+        </serviceList>
+    </device>
+</root>
